@@ -1,17 +1,17 @@
 @extends('include.master')
 @section('content')
-@section('title','Service')
+@section('title','Appointment')
 
 
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-            <form class="form-valide" action="{{route('service.store')}}" method="post" enctype="multipart/form-data">
+            <form class="form-valide" action="{{route('appointment.store')}}" method="post" enctype="multipart/form-data">
             @csrf
-                <h4 class="header-title">Service</h4>
+                <h4 class="header-title">Appointment</h4>
 
                 <div class="form-group">
-                    <label for="example-text-input" class="col-form-label">Service Title</label>
+                    <label for="example-text-input" class="col-form-label">Appointment</label>
                     <input class="form-control" type="text" name="name" value="{{old('name')}}" id="example-text-input">
 
                     @error('name')

@@ -3,8 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServiceCategoryController;
 use App\Http\Controllers\ServiceController;
-use App\Http\Controllers\BusinesshourController;
-use App\Http\Controllers\BusinessHoursRequest;
+use App\Http\Controllers\AppointmentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,7 +27,7 @@ Route::resources([
    
     'servicecategory'=> ServiceCategoryController::class,
     'service'=> ServiceController::class,
-
+    'appointment'=> AppointmentController::class,
 
     ]);
 

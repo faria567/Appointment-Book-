@@ -15,6 +15,7 @@
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="{{route('servicecategory.index')}}">Service Category</a></li>
                         <li><a href="{{route('service.index')}}">Service </a></li>
+                        <li><a href="{{route('appointment.index')}}">Appointment </a></li>
 
                     </ul>
                 </li>

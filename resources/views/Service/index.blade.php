@@ -77,7 +77,7 @@
                                     <td >{{$item->amount}}</td>
                                     <td >{{$item->description}}</td>
                                     <td ><img style="width:150px; height:100px;" src="{{ asset('uploads/'.$item->image)}}" alt=""></td>
-                                    <td >{{$item->blogsCategory->name ?? ''}}</td>
+                                  
                                         <td>
                                             <form action="{{route('service.destroy',$item->id)}}"  method="Post">
                                            
