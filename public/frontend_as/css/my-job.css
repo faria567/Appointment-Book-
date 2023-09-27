@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+.add-job button {
+    color: #fff;
+    background-color: rgb(133, 41, 153);
+    background: linear-gradient(
+        90deg,
+        rgba(133, 41, 153, 1) 0%,
+        rgba(197, 57, 180, 1) 100%
+    );
+}
+/* .add-my-job option {
+  border: 1px solid lightgray;
+} */
+.text-color {
+    color: #000000;
+}
+/* .add-job button:focus {
+    border: 2px solid #c539b4;
+    color: #fff;
+} */
+.active-filter {
+    height: 100%;
+    width: 120px;
+    padding: 10px 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.jobs-info {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-left: -125px; */
+}
+
+.jobs-info h6 {
+    margin-bottom: 7px;
+    color: blueviolet;
+    font-size: 15px;
+}
+
+.jobs-info p {
+    margin-bottom: 0px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #000000;
+}
+.jobs-btn button {
+    color: white;
+    background: rgb(0, 153, 115);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 153, 115, 1) 0%,
+        rgba(51, 196, 164, 1) 100%
+    );
+}
+.btn-details {
+    /* margin-top: 40px;
+  margin-left: 15px; */
+}
+.deadline {
+    /* margin-top: 40px;
+  font-size: 14px; */
+}
+
+/* my jobs details start here  */
+.jobs-details-info h2 {
+    color: #000000;
+}
+.jobs-details-info p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.jobs-details-info span {
+    color: blueviolet;
+}
+.my-details p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.table-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/* my jobs details end here  */
+
+/* Media queries start here  */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    .jobs-category img {
+        height: 70px;
+    }
+
+    .jobs-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .jobs-info p {
+        margin-top: 1px;
+        font-size: 13px;
+    }
+    .jobs-info h6 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .jobs-info h4 {
+        font-size: 13px;
+    }
+    .hidden-info {
+        display: none;
+    }
+
+    .btn-details {
+        margin-top: 0px;
+    }
+    .btn-details button {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .deadline {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 500px) and (max-width: 738px) {
+    .jobs-image img {
+    }
+
+    .jobs-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .jobs-info p {
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
+    .jobs-info h4 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .jobs-info h6 {
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+    .btn-details {
+        margin-top: 0px;
+    }
+    .btn-details button {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .deadline {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 738px) and (max-width: 992px) {
+   
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+    .listing-info {
+    }
+}

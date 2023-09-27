@@ -1,0 +1,79 @@
+/* for profile banner  */
+.profile-banner {
+  min-height: 300px;
+  border-radius: 20px;
+}
+
+.oberlay {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(310deg, #7928ca 0%, #ff0080 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 20px;
+}
+.my-profile-img {
+  width: 80px;
+  height: 80px;
+}
+.my-profile-img img {
+  width: 100%;
+  height: 100%;
+}
+.my-profile {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -50px;
+  z-index: 5;
+  background-color: #fff;
+  border-radius: 20px;
+  /* opacity: 0.9; */
+}
+.profile-details {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.profile-details h2 {
+  color: #000000;
+}
+.profile-details p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+}
+.profile-details span {
+  color: blueviolet;
+}
+.profile-details p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn-default {
+  background: rgb(0, 153, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 153, 115, 1) 0%,
+    rgba(51, 196, 164, 1) 100%
+  );
+}
+.btn-message {
+  background: gray;
+}
+/* for profile banner  */
+
+/* profile popup modal  */
+
+.my-info {
+  /* font-size: 24px;
+    transform: scale(0.6, 1); */
+}
+/* profile popup modal  */

@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+.sidebar-nav ul li a {
+    /* font-size: 11px !important; */
+}
+/* .listing-img img {
+  display: flex;
+  display: block !important;
+} */
+.user-profile .dropdown-menu {
+    right: 0px;
+    width: 180px;
+    left: -75px;
+    top: 59px !important;
+    margin: 0 auto;
+}
+#dashbord-border {
+    background-color: lightgray;
+    width: 98%;
+    height: 2px;
+    margin: 0px 8px;
+}
+
+.my-button {
+    word-spacing: 3px;
+    color: white;
+    background: rgb(0, 153, 115);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 153, 115, 1) 0%,
+        rgba(51, 196, 164, 1) 100%
+    );
+}
+.my-button:focus {
+    border: 2px solid #33c4a4;
+}
+.dashboard-item1 {
+    background: rgb(133, 41, 153);
+    background: linear-gradient(
+        90deg,
+        rgba(133, 41, 153, 1) 0%,
+        rgba(197, 57, 180, 1) 100%
+    );
+}
+
+.dashboard-item2 {
+    background: rgb(29, 91, 121);
+    background: linear-gradient(
+        90deg,
+        rgba(29, 91, 121, 1) 0%,
+        rgba(70, 139, 151, 1) 100%
+    );
+}
+.dashboard-item3 {
+    /* background: rgb(0, 129, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 129, 201, 1) 0%,
+    rgba(91, 192, 248, 1) 100%
+  ); */
+    background: rgb(0, 129, 201);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 129, 201, 1) 0%,
+        rgba(73, 186, 249, 1) 100%
+    );
+}
+.dashboard-item4 {
+    background: rgb(0, 153, 115);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 153, 115, 1) 0%,
+        rgba(51, 196, 164, 1) 100%
+    );
+}
+
+.card:hover {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.39);
+}
+.card-categories h5 {
+    color: #fff;
+}
+/* search option start here*/
+.search-option {
+    box-sizing: border-box;
+}
+.search-btn {
+    color: white;
+    background: rgb(0, 129, 201);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 129, 201, 1) 0%,
+        rgba(91, 192, 248, 1) 100%
+    );
+}
+
+/* search option end here */
+
+/* prifile list*/
+.listing-card {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.08);
+    transition: all 0.8s;
+}
+.listing-card:hover {
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(10px);
+}
+.listing-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.listing-image img {
+    width: 220px;
+    height: 220px;
+    /* margin: 20px 20px 20px 10px; */
+    object-fit: cover;
+}
+.listing-info {
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-left: -125px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listing-info h5 {
+    color: blueviolet;
+}
+.listing-info h6 {
+    color: black;
+    font-size: 14px;
+}
+
+.listing-info p {
+    margin-bottom: 0px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: black;
+}
+.listing-btn button {
+    color: white;
+    background: rgb(0, 153, 115);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 153, 115, 1) 0%,
+        rgba(51, 196, 164, 1) 100%
+    );
+}
+
+/* Media queries start here  */
+/* Extra small devices (phones, 350 and down) */
+
+@media only screen and (max-width: 500px) {
+    .listing-image img {
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+    }
+
+    .listing-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* margin-left: 20px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .listing-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .hidden-info {
+        display: none;
+    }
+    .listing-info p {
+        margin-top: 1px;
+        font-size: 13px;
+    }
+
+    .listing-info h5 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .listing-info h6 {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .listing-btn {
+        /* padding-right: 10px; */
+    }
+
+    .listing-btn button {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-right: 5px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 500px) and (max-width: 738px) {
+    .listing-image img {
+        width: 130px;
+        height: 130px;
+        margin: 15px;
+    }
+
+    .listing-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* margin-left: 40px; */
+    }
+
+    .listing-info p {
+        margin-top: 2px;
+        font-size: 13px;
+    }
+
+    .listing-info h5 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .listing-info h6 {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .listing-btn {
+        font-size: 8px;
+        padding-right: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 738px) and (max-width: 992px) {
+    .listing-image img {
+        width: 145px;
+        height: 145px;
+        /* margin: 10px; */
+    }
+
+    .listing-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 5px;
+    }
+    .listing-info p {
+        margin-top: 5px;
+        /* font-size: 13px; */
+    }
+
+    .listing-info h5 {
+        /* font-size: 14px; */
+        margin-bottom: 4px;
+    }
+    .listing-info h6 {
+        /* font-size: 13px; */
+        margin-bottom: 4px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .listing-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* margin-left: -40px; */
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .listing-info {
+        /* padding-top: 10px;
+    padding-bottom: 10px; */
+        margin-left: -50px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+    .listing-info {
+        /* padding-top: 10px;
+    padding-bottom: 10px; */
+        margin-left: -85px;
+    }
+}

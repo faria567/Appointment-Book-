@@ -1,0 +1,9 @@
+.btn-default {
+  color: white;
+  background: rgb(0, 153, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 153, 115, 1) 0%,
+    rgba(51, 196, 164, 1) 100%
+  );
+}
