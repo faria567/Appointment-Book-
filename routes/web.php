@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServiceCategoryController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\BookingdetailsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +21,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -28,6 +33,6 @@ Route::resources([
     'servicecategory'=> ServiceCategoryController::class,
     'service'=> ServiceController::class,
     'appointment'=> AppointmentController::class,
-
+    'book'=> BookingdetailsController::class,
     ]);
 
